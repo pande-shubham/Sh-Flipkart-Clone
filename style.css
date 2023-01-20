@@ -176,6 +176,8 @@ header .nav-container .logo img {
 .section-1-item img{
   width: 64px;
   height: 64px;
+  cursor: pointer;
+  display: flex;
 }
 
 /*section-2 */
@@ -187,6 +189,7 @@ header .nav-container .logo img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .section-3-container{
@@ -196,4 +199,111 @@ header .nav-container .logo img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/*section-4*/
+
+.section-4-container{
+  margin-top: 8px;
+  height: 362px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-4-offer{
+  width: 230px;
+  height: 100%;
+  background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/1e483f8045ec13a8.jpg?q=90');
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.section-4-offer-viewall{
+  margin-top: 132px;
+  width: 100%;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-4-offer-viewall button{
+margin-top: 24px;
+height: 40px;
+background-color: var(--primary-color);
+color: white;
+box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+padding: 10px 20px;
+font-size: 14px;
+font-weight: 500;
+border-radius: 2px;
+border: none;
+}
+
+.section-4-list{
+  height: 100%;
+  width: calc(100 - 230px);
+  display: flex;
+  overflow-x: auto;
+}
+
+.section-4-item{
+  width: 232px;
+  height: 100%;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-4-item img{
+  max-width: 180px;
+  max-width: 200px;
+  cursor: pointer;
+}
+
+.section-4-item-head{
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.section-4-item-price{
+  margin-top: 12px;
+  font-size: 16px;
+  color: #388e3c;
+  cursor: pointer;
+}
+
+.section-4-item-explore{
+  opacity: 0.6;
+  margin: 12px;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.section-5{
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-5 img{
+  width: 33%;
+  cursor: pointer;
+
+}
+
+footer{
+  margin-top: 26px;
+  background-color: white;
+  text-align: center;
+  font-size: 14px;
+  color: #878787;
 }
